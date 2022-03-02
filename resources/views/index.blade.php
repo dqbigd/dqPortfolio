@@ -44,7 +44,7 @@
           I am a Mobile App Developer using flutter and native android. I have experience developing and designing mobile applications for company in indonesia. 
           Apart from making mobile applications, I also have experience in creating websites from scratch with Laravel.
         </p>
-        <a href="" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
+        <a href="https://drive.google.com/drive/folders/1_87EiQVTrq6WrFU-cxx1WLD1xPBpV3S0?usp=sharing" target="_blank" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png" alt="">Download CV</a>
       </div>
     </div>
   </section>
@@ -53,7 +53,7 @@
   <hr>
 
 <!--Portfolio-->
-  <section id="portfolio" class="container section">
+  {{-- <section id="portfolio" class="container section">
     <div class="row">
       <div class="col-md-12">
         <h2 id="portfolio_header" class="section__title">My projects</h2>
@@ -65,8 +65,7 @@
           <ul>
             <li><a href="" data-portfolio-target-tag="all">all</a></li>
             <li><a href="" data-portfolio-target-tag="mobile apps">mobile apps</a></li>
-            <li><a href="" data-portfolio-target-tag="web-sites">web-sites</a></li>
-            {{-- <li><a href="" data-portfolio-target-tag="landing-pages">landing pages</a></li> --}}
+            <li><a href="" data-portfolio-target-tag="web-sites">websites</a></li>
           </ul>
         </nav>
       </div>
@@ -138,7 +137,7 @@
       </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 <!--Portfolio-->
 
 <!--Contact-->
@@ -171,7 +170,7 @@
           </div>
         </div>
         <div class="col-md-7 col-lg-5">
-          <div class="contacts__form">
+          {{-- <div class="contacts__form">
             <p class="contacts__form-title">Or just write me a letter here 😀</p>
             <form class="js-form">
               <div class="form-group">
@@ -189,9 +188,9 @@
                 <span class="form-validation"></span>
                 <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
               </div>
-              <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+              <button class="site-btn site-btn--form" type="submit" value="Send" disabled>Send</button>
             </form>
-          </div>
+          </div> --}}
           <div class="footer">
             <p>&copy; Diqi {{ date('Y') }}. All Rights Reserved</p>
           </div>
